@@ -1,0 +1,8 @@
+server:
+    port: 8085
+spring:
+    application:
+        name: fares-apigateway
+    cloud:
+        config:
+            uri: http://localhost:8888
